@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:linear-gradient(#c3cfe9 15%,#00020e 100%);
+}
+
+#titulo{
+    color: rgb(0, 5, 10);
+}
+
+.texto{
+    color: peru;
+}
+
+footer{
+    background: linear-gradient(#1d678c 15%,#13a8f2 100%);
+    color: rgb(1, 0, 10);
+    padding: 16px 0;
+}
