@@ -20,3 +20,20 @@ footer{
     color: rgb(1, 0, 10);
     padding: 16px 0;
 }
+
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  text-align: justify;
+  font-style: normal;
+  font-variation-settings:
+  width 100px;
+}
+
+img{
+    display:block;
+    margin:0 auto;
+    width: 500px;
+    height: 500px;
+}
