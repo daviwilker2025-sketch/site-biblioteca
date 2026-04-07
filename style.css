@@ -37,3 +37,15 @@ img{
     width: 500px;
     height: 500px;
 }
+
+form button{
+    background: linear-gradient(#721d8c 15%, #083469 100%);
+    color: rgb(53, 229, 252);
+    cursor: pointer;
+    width: 100px;
+}
+
+input:focus,
+textarea:focus{
+    outline: #721d8c;
+}
