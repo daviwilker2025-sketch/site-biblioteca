@@ -4,7 +4,7 @@
 }
 
 body{
-    background:linear-gradient(#c3cfe9 15%,#00020e 100%);
+    background:linear-gradient(#c3cfe9 15%,#999cac 100%);
 }
 
 #titulo{
@@ -34,12 +34,12 @@ p {
 img{
     display:block;
     margin:0 auto;
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    height: auto;
 }
 
 form button{
-    background: linear-gradient(#721d8c 15%, #083469 100%);
+    background: linear-gradient(#ffffff 15%, #083469 100%);
     color: rgb(53, 229, 252);
     cursor: pointer;
     width: 100px;
@@ -48,4 +48,35 @@ form button{
 input:focus,
 textarea:focus{
     outline: #721d8c;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 500px; /* Limita o tamanho máximo */
+    }
+
+    form button {
+        width: 100%;
+        max-width: 300px; /* Limita a largura máxima */
+    }
+
+    p {
+        font-variation-settings: width 80px; /* Ajusta a largura da fonte para telas menores */
+    }
+
+    footer {
+        padding: 12px 0; /* Reduz o padding no footer */
+    }
 }
